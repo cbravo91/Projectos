@@ -1,0 +1,30 @@
+#container{
+
+    width: 900px;
+    height: 900px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 25%;
+}
+
+
+.square{
+   margin-left: 600px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    padding-top: 150px;
+}
+.square:first-child{
+    background-color:red;
+    color: white;
+    
+}
+.square:nth-child(even){
+    background-color: blue;
+    color: white;
+}
+.square:last-child{
+    background-color: green;
+    color: white;
+}
