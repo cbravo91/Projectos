@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+}
+
+
+
+.bg-light{
+    width: 100%;
+    background-color: rgb(182, 5, 5) !important;
+    
+}
+.container-fluid{padding: 0px;}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 220, 64);    
+}
+
+.bg-light{
+    padding: 0px 16px 0px 16px;
+}
+.navbar-brand{
+    transition: 0.5s;
+    color: rgb(245,211,61);
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.navbar-brand:hover{
+color:black;
+background-color: rgb(245,211,61);
+}
+
+.nav-link{transition: 0.5s;}
+.nav-link:hover{
+    background-color:rgb(255, 220, 64);
+    color: black;
+   
+}
+
+.h1{font-family: 'Satisfy', cursive;
+	font-size:50px;
+	text-align:center;
+	line-height:60px;
+	padding: 5px;
+    }
+
+    .navbar-light .navbar-brand{
+        color: rgb(255, 220, 64);
+    }
+    .navbar-light .navbar-toggler{
+        background-color:rgb(245, 211, 61);
+    }
+
+    #carouselExampleSlidesOnly{
+        width: 60%;
+        margin: 60px 20% 30px 20%;
+        padding: 15px;
+        border-radius: 8px ;
+        border: solid;
+    }
+
+    .carousel-item{
+        transition: ease-in-out 0.5s;
+    }
+    .carousel-item img{
+        max-height: 680px;
+    }
+
+    .table{
+        width: 60%;
+      margin: 60px 20% 20px 20%;
+    }
+    #dropdownMenuLink{
+        width: 60%;
+        margin: 15px 20% 15px 20%;
+
+       background-color:  rgb(182, 5, 5);
+       color: rgb(245,211,61);
+    }
+
+    #carouselExampleControls{
+        width:50%;
+        margin: 30px 25% 30px 25%;
+    }
+.card{
+    padding: 5px 15% 5px 15%;
+}
+#carouselExampleControls button{
+    border: none;
+    background-color: rgb(182, 5, 5);
+}
+
+
+    #contactForm{
+        margin: 80px 20% 80px 20%;
+        padding: 10px;
+        max-width: 60%;
+        border-radius: 20px;
+        border:solid;
+    }
+    #contactForm button{
+        margin-left: 10%;
+        width: 80%;
+        border-radius: 15px;
+        border-color: rgb(245, 211, 61);
+        background-color: rgb(182, 5, 5);
+        transition:  0.5s;
+    }
+
+    #contactForm button:hover{
+        background-color: rgb(245,211,61);
+        color: black;
+    }
+
