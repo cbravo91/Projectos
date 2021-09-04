@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    position: relative;
+}
+
+body{
+    background-color: rgb(255, 220, 64); 
+}
+main{   
+     position: relative; 
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+        padding: 30px 0px 30px 0px;}
+
+    main::before {    
+        content: "";
+        background-image: url('img/bg.jpg');
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.75;
+  }
+
+.bg-light{
+    width: 100%;
+    background-color: rgb(182, 5, 5) !important;
+    
+}
+.container-fluid{padding: 0px;}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 220, 64);    
+}
+
+.bg-light{
+   padding: 0px;
+}
+.navbar-brand{
+    transition: 0.5s;
+    color: rgb(245,211,61);
+    margin: 0px;
+    padding: 20px ;
+}
+
+.navbar-brand:hover{
+color:black;
+background-color: rgb(245,211,61);
+}
+
+.nav-link{transition: 0.5s;
+    padding: 20px 5px 20px 5px;
+}
+.nav-link:hover{
+    background-color:rgb(255, 220, 64);
+    color: black;
+   
+}
+
+.h1{font-family: 'Satisfy', cursive;
+	font-size:50px;
+	text-align:center;
+	line-height:60px;
+	padding: 5px;
+    
+    }
+
+    .navbar-light .navbar-brand{
+        color: rgb(255, 220, 64);
+    }
+    .navbar-light .navbar-toggler{
+        background-color:rgb(245, 211, 61);
+    }
+
+    #carouselExampleSlidesOnly{
+        width: 60%;
+        margin: 30px 20% 30px 20%;
+        padding: 15px;
+        border-radius: 20px ;
+        border: solid;
+        background-color:rgb(245, 211, 61) ;
+        
+        
+    }
+
+    .carousel-item{
+        transition: ease-in-out 0.5s;
+    }
+    .carousel-item img{
+        max-height: 680px;
+    }
+    .carousel-inner{
+      
+        border-radius: 15px ;
+        
+    }
+.shop{
+    color: rgb(236, 214, 113);
+    border: 2px solid rgb(235, 213, 114);
+    background-color: rgb(182, 5, 5);
+    border-radius: 100%;
+    padding: 5px 5px 4px 3px;
+}
+    .table{
+        width: 60%;
+      margin: 60px 20% 20px 20%;
+        background-color: rgb(245, 211, 61);
+        border: 3px solid black;   
+    }
+    .table thead th{
+        border-color: black;
+    }
+    .table th, .table td{
+        border-color: black;
+    }
+    .dropdown-menu{
+        width: 60%;
+        background-color: rgb(245,211,61);
+    }
+    .dropdown-item{
+        text-align: center;
+    }
+
+    .dropdown-item:hover{
+        background-color: rgb(182, 5, 5);
+        color: rgb(245,211,61);
+        transition: .5s;
+    }
+    .dropdown-item:active{
+       background-color:  rgb(245,211,61);
+       color:black;
+    }
+
+    #dropdownMenuLink{
+        width: 60%;
+        margin: 15px 20% 15px 20%;
+
+       background-color:  rgb(182, 5, 5);
+       color: rgb(245,211,61);
+    }
+.card{
+    background-color: rgb(245,211,61);
+}
+    #carouselExampleControls{
+        width:70%;
+        margin: 30px 15% 30px 15%;
+        background-color: rgb(182, 5, 5);
+    }
+.card{
+    padding: 5px 15% 5px 15%;
+}
+#carouselExampleControls button{
+    border: none;
+    background-color: rgb(182, 5, 5);
+}
+
+
+    #contactForm{
+        margin: 80px 20% 0px 20%;
+        padding: 10px;
+        max-width: 60%;
+        border-radius: 20px;
+        border:solid;
+        background-color: rgb(245, 211, 61);
+    }
+    #contactForm button{
+        margin-left: 10%;
+        width: 80%;
+        border-radius: 15px;
+        border: 2px solid black;
+        background-color: rgb(182, 5, 5);
+        transition:  0.5s;
+    }
+
+    #contactForm button:hover{
+        background-color: rgb(245,211,61);
+        color: black;
+    }
+
+    footer{
+        background-color: rgb(182, 5, 5);
+        color:rgb(209, 183, 69);
+       padding: 30px;
+       text-align: center;
+    }
+
+
+    footer ul{
+        list-style-type: none;
+        width: 100%;
+        padding: 0px;
+    }
+   footer ul li{
+       display: inline;
+       padding: 5px;
+       border: 1px solid black;
+       border-radius: 80%; 
+       background-color: rgb(182, 5, 5);
+       transition: .3s;
+       margin: 5px;
+   }
+
+   footer ul li:hover{
+    color: rgb(182, 5, 5);
+    background-color: rgb(245, 211, 61);
+    transition: .5s;
+   }
+   footer ul li a{
+    
+    color: rgb(245, 211, 61);
+    background-color: rgb(182, 5, 5);
+   }
+   footer ul li a:hover{
+       color: rgb(182, 5, 5);
+       background-color: rgb(245, 211, 61);
+       
+   }
+
+   a i{
+       width: 20px;
+       height: 20px;
+       
+   }
+   
+   .enviado{
+       margin: 50% 40% 50% 40%;
+   }
+
+   .enviado a{
+       color: rgb(209, 183, 69);
+       border-color: rgb(245,211,61);
+   }
+   .enviado button{
+       background-color:rgb(182, 5, 5);
+        color:rgb(236, 214, 113);
+
+   }
+   .enviado button:hover{
+       background-color: rgb(255, 220, 64);
+       color: rgb(182,5,5);
+   }
+
+    @media (max-width:1000px){
+    #carouselExampleSlidesOnly{
+        width: 90%;
+        margin: 60px 5% 30px 5%;}
+        .nav-link{
+            text-align: center;
+        }
+    }
+
