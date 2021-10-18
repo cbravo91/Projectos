@@ -85,4 +85,10 @@ public class Mesa {
         System.out.println("El total de la cuenta a pagar es: " + cuenta);
         this.cuenta = 0;
     }
+
+    @Override
+    public String toString() {
+       
+        return getPersonasSentadas();
+    }
 }

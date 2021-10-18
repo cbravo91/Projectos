@@ -34,9 +34,7 @@ después de pedir la cuenta liberar mesa
                 case 2:
                     imprimir("¿Cuantas personas van a estar sentadas?");
                     int cantSentados = Integer.parseInt(input.nextLine());
-                    Mesa mesa= restaurante.elegirMesa(cantSentados);
-                    restaurante.sentarse(cantSentados, mesa);
-                    
+                    restaurante.elegirMesa(cantSentados);
                     break;
                 case 3:
                     restaurante.mostrarClientes();
