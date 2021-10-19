@@ -35,15 +35,20 @@ después de pedir la cuenta liberar mesa
                     imprimir("¿Cuantas personas van a estar sentadas?");
                     int cantSentados = Integer.parseInt(input.nextLine());
                     restaurante.elegirMesa(cantSentados);
+                    
                     break;
                 case 3:
                     restaurante.mostrarClientes();
                     break;
                 case 4:
-                  //  restaurante.pedirComida();
+                imprimir("¿Para cual mesa es el pedido?");
+                int indexMesa= Integer.parseInt(input.nextLine());
+                  restaurante.getMesa(indexMesa).pedirComida();
                     break;
                 case 5:
-                    restaurante.getMesa().pedirCuenta();
+                imprimir("¿De que mesa es la cuenta?");
+                indexMesa= Integer.parseInt(input.nextLine());
+                restaurante.getMesa(indexMesa).pedirCuenta();
                     break;
                 case 6:
                     abierto = false;

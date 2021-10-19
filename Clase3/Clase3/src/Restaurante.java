@@ -8,8 +8,6 @@ public class Restaurante {
     private double caja;
     private final Vector<Mesa> mesas;
    private ArrayList<Integer> mesasDisponibles = new ArrayList<Integer>();
-   
-
    Scanner input = new Scanner(System.in);
     public Restaurante() {
 
@@ -25,21 +23,17 @@ public class Restaurante {
         }
     }
 
-    public Mesa getMesa() {
-        return mesas;
-    }
 
     public void mostrarMesas() {
-        for (int i = 0; i < mesas.size(); i++) {
+        for (int i = 0; i < this.mesas.size(); i++) {
             System.out.print("Capacidad: " + mesas.get(i).getCapacidad() + " " + "Pedidos: "
-                    + mesas.get(i).getPedidos() + "Cuenta: " + mesas.get(i).getCuenta()+ "Personas :"+mesas.get(i).getPersonasSentadas());
+                    + this.mesas.get(i).getPedidos() + "Cuenta: " + this.mesas.get(i).getCuenta()+ "Personas :"+this.mesas.get(i).getPersonasSentadas());
         }
 
     }
 
     public void mostrarClientes() {
          int  totalClientes=0;
-         mesas.forEach(System.out::println);
         //this.mesas.stream().forEach(mesa-> totalClientes+= mesa.getPersonasSentadas());
        for (Mesa mesa : mesas) {
            totalClientes+= mesa.getPersonasSentadas();
@@ -59,13 +53,13 @@ public class Restaurante {
         System.out.println("Las mesas disponibles son: " + mesasDisponibles.toString());
         System.out.println("¿Que mesa elije?");
         int indiceMesa= Integer.parseInt(input.nextLine());
-         sentarse(cantSentados, this.mesas.get(indiceMesa));
+          this.mesas.get(indiceMesa).sentarse(cantSentados);
     }
 
-    public void sentarse(int personasSentadas, Mesa mesa) {
-
-          mesa.setPersonasSentadas(personasSentadas);
+    public Mesa getMesa(int indexMesa){
+        return this.mesas.get(indexMesa);
     }
+
 
     public void gananciaporDia() {
         for (Mesa mesa : mesas) {
