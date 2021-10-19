@@ -6,7 +6,7 @@ import java.util.Vector;
 
 public class Restaurante {
     private double caja;
-    private final Vector<Mesa> mesas;
+    private Vector<Mesa> mesas;
    private ArrayList<Integer> mesasDisponibles = new ArrayList<Integer>();
    Scanner input = new Scanner(System.in);
     public Restaurante() {
