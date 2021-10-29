@@ -95,6 +95,9 @@ for (int i=0; i<rutinas.length;i++) {
         return calificacion;
     }
 
+    public Rutina[] getRutinas() {
+        return rutinas;
+    }
     public void establecerObjetivo(String objetivo){
         this.objetivos.add(objetivo);
     }
@@ -111,4 +114,7 @@ for (int i=0; i<rutinas.length;i++) {
     public ArrayList<String> getObjetivos() {
         return objetivos;
     }
+public void setCalificacion(Calificacion calificacion) {
+    this.calificacion = calificacion;
+}
 }

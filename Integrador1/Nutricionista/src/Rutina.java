@@ -12,6 +12,9 @@ public class Rutina {
         this.bebida=bebida;
     }
 
+    public AC getAlmuerzoCena() {
+        return AlmuerzoCena;
+    }
     public void setAlmuerzoCena(AC almuerzoCena) {
         AlmuerzoCena = almuerzoCena;
     }
