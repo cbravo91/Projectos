@@ -5,7 +5,6 @@ public class App {
        Atleta cliente= new Atleta("Jorge", "Lobos", "Masculino", 24, 130);
        Rutina rutina=cliente.cargarRutina();
        pro.crearPlan(cliente).agregarRutina(rutina);
-// falta ver calificaciones y porcentajes
 
 
        
