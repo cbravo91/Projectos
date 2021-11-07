@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Cancionero/lib/jackson-databind-2.12.4.jar",
+        "Cancionero/lib/jackson-core-2.12.3.jar",
+        "Cancionero/lib/json-20210307.jar",
+        "Cancionero/**/*.jar"
+    ]
+}
