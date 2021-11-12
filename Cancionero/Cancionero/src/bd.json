@@ -1,1 +1,1 @@
-[{"Song 2":{"Nombre":"Song 2","Duración":3.23,"Album":"Blur","Artista":"Blur"}},{"Money":{"Nombre":"Money","Duración":5.0,"Album":"Dark side of the moon","Artista":"Pink Floyd"}}]
+{"Usuarios":[{"Sara":{"0":{"Nombre":"Sara"}}},{"pepe123":{"0":{"Nombre":"pepe123"}}}],"Playlists":[{"lista":[{"0":{"Nombre":"Song 2","Duración":3.23,"Album":"Blur","Artista":"Blur"}},{"0":{"Nombre":"Money","Duración":5.0,"Album":"Dark side of the moon","Artista":"Pink Floyd"}}]}]}
