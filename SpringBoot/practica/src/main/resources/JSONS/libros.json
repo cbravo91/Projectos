@@ -1,0 +1,12 @@
+{
+    "1": {
+            "titulo": "titulo1",
+            "autor": "autor1",
+            "cantidadHojas": 100
+        },
+    "2": {
+            "titulo": "titulo2",
+            "autor": "autor2",
+            "cantidadHojas": 123
+        }    
+}
